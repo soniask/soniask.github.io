@@ -2,8 +2,12 @@ class WeatherSearch extends React.Component {
     render() {
         return (
             <form onSubmit={(e) => this.onSearch(e)}>
-                <input className="form-control" type="text" ref="query" />
-                <button type="submit" className="btn btn-primary pull-right">Search</button>
+                <div className="input-group">
+                    <input className="form-control" type="text" ref="query" />
+                    <span className="input-group-btn">
+                        <button type="submit" className="btn btn-primary pull-right">Search</button>
+                    </span>
+                </div>
             </form>
         )
     }
