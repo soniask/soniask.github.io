@@ -133,7 +133,6 @@ firebase.auth().onAuthStateChanged(function(user) {
                 deleteButton.classList.add("btn");
                 deleteButton.classList.add("btn-default");
                 deleteButton.onclick = function(){
-                    // TODO: confirmation message should be shown to the user asking if they are user if they are sure they want to delete the message
                     var answer = confirm("Delete this message?");
                     if(answer){
                         messagesFull.child(id).remove();
@@ -216,7 +215,6 @@ messageForm.addEventListener("submit", function (e) {
             messageInput.value = "";
             messageInput.focus();
         })
-        // without wifi I don't go into catch or then, wat is going on halp pls
         .catch(function(error) {  
             // message not created succesfully
             messageError.textContent = "Message not sent";
