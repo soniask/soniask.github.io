@@ -1,0 +1,27 @@
+/*
+ *  This file should contain your custom style rules.
+ */
+
+.alert, .hidden {
+    display: none;
+}
+
+.alert.active {
+    display: block;
+}
+
+body, pre {
+    font-family: "Catamaran", sans-serif;
+}
+
+.pad {
+    padding-left: 100px;
+}
+
+button {
+    margin-right: 10px;
+}
+
+textarea {
+    width: 100%;
+}
