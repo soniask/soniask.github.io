@@ -1,15 +1,14 @@
 /*
- * This file should contain code for the following tasks:
+ * This file contains code for the following tasks:
  * 1. Create a new account.
  * 2. Sign in an existing account.
  * 3. Redirect a user to chat.html once they are logged in/signed up.
  */
 
-
 // Tracks if the user has just submitted the form to sign up
 var signingUp = false;
 
-// Store our DOM elements
+// Store DOM elements for login form
 var loginForm = document.getElementById("login-form");
 var loginEmail = document.getElementById("login-email");
 var loginPassword = document.getElementById("login-password");
@@ -26,21 +25,18 @@ loginForm.addEventListener("submit", function (e) {
     var email = loginEmail.value;
     var password = loginPassword.value;
 
-    // If the login was successful, the .then callback will be called.
-    // Otherwise, the .catch callback will be called,
-    // with an error object containing the error message.
     firebase.auth().signInWithEmailAndPassword(email, password)
     .then(function() {
 
     })
     .catch(function(error) {
-    //   TODO: SHOW USER APPROPRIATE ERROR ON FAILED LOGIN
         loginError.textContent = error.message;
         loginError.classList.add('active');
 
     });
 });
 
+// Store DOM elements for signup form
 var signupForm = document.getElementById("signup-form");
 var signupName = document.getElementById("signup-name");
 var signupEmail = document.getElementById("signup-email");
@@ -58,11 +54,6 @@ signupForm.addEventListener("submit", function (e) {
     var password = signupPassword.value;
     var passwordConfirm = signupPasswordConfirm.value;
 
-    console.log(displayName);
-    console.log(email);
-    console.log(password);
-    console.log(passwordConfirm);
-
     if (password !== passwordConfirm) {
         signupError.textContent = 'Passwords do not match.';
         signupError.classList.add('active');
@@ -71,8 +62,7 @@ signupForm.addEventListener("submit", function (e) {
         .then(function (user) {
             signingUp = true;
 
-            // Update their display name and profile picture
-            // displayName , photoURL
+            // Update display name and profile picture
             user.updateProfile({
                 displayName: displayName,
                 photoURL: "https://www.gravatar.com/avatar/" + md5(email)
@@ -96,8 +86,6 @@ signupForm.addEventListener("submit", function (e) {
 // This callback is called whenever the user's logged in state changes,
 // e.g. when the page first loads, when a user logs in, when a user logs out.
 firebase.auth().onAuthStateChanged(function(user) {
-  // If the user parameter is truthy,
-  // the user is logged in.
   if (user && !signingUp) {
       window.location.href = "chat.html";
   }
