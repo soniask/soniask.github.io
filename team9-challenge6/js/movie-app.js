@@ -49,7 +49,7 @@ class MovieApp extends React.Component {
                                 />
                             </div>
 
-                            <div className="col-xs-3 text-right">
+                            <div className="col-xs-3 text-center">
                                 <CartLink
                                     numberInCart={this.state.numMoviesInCart}
                                 />

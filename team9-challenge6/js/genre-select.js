@@ -30,13 +30,14 @@ class GenreSelect extends React.Component {
     render() {
         return(
             <div id="genre-select">
-                <select onChange={(e) => this.searchGenre(e)}>
+                <select className="form-control" onChange={(e) => this.searchGenre(e)}>
                     <option value="-1">Popular</option>
                     { 
                         this.state.genres.map((genre) => (
                             <option key={genre.id} value={genre.id}>{genre.name}</option>
                         ))
                     }
+                    <span className="caret"></span>
                 </select>
             </div>
         );
