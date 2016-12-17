@@ -1,10 +1,9 @@
 "use strict";
 
 class MovieSearch extends React.Component {
-
     render() {
         return (
-            <div id="form-div">
+            <div>
                 <form 
                     className="form-group"
                     onSubmit={(e) => this.searchMovies(e)}

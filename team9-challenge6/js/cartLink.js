@@ -6,9 +6,11 @@ class CartLink extends React.Component {
         return (
             <div id="cart-div">
                 <a href="cart.html">
-                    <img src="img/cart-icon.png" alt="shopping cart"/>
+                    <p>
+                        <i className="fa fa-shopping-cart" aria-label="Link to Cart Page"></i>
+                        {this.props.numberInCart}
+                    </p>
                 </a>
-                <p className="inline">{this.props.numberInCart}</p>
             </div>
         );
     }

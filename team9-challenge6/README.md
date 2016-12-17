@@ -9,4 +9,4 @@
 
 
 ## Link to gh-pages
-https://info343e-au16.github.io/team9-challenge6/
+https://soniask.github.io/team9-challenge6/

@@ -1,6 +1,6 @@
 "use strict";
 class MovieDisplay extends React.Component {
-  render() {
+    render() {
         return (
             <div>
                 <h3 className="text-center movie-title">{this.props.title}</h3>
@@ -10,7 +10,7 @@ class MovieDisplay extends React.Component {
                     <div className="movie-summary">
 				        <p>{this.props.overview}</p>
                     </div>
-                    <div className="position-bottom">
+                    <div>
                         <button
                             type="button"
                             className="btn btn-default"
