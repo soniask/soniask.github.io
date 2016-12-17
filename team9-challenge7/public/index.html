@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <title>Search - Lyricy McLyricFace</title>
+
+    <!-- Use bootstrap framework -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" type="text/css" />
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/microphone.png">
+
+</head>
+
+<body>
+
+    <!--Targetable div for React component-->
+    <div id="search-wrapper"></div>
+
+    <!--Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+    <script type="text/javascript" src="scripts/fbAuth.js"></script>
+    
+    <!-- Babel and React libraries -->
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+
+    <!--React components-->
+    <script type="text/babel" src="scripts/header.js"></script>
+    <script type="text/babel" src="scripts/searchForm.js"></script>
+    <script type="text/babel" src="scripts/topLyrics.js"></script>
+    <script type="text/babel" src="scripts/lyricInfo.js"></script>
+    <script type="text/babel" src="scripts/lyricDisplay.js"></script>
+    <script type="text/babel" src="scripts/searchPage.js"></script>
+
+</body>
+</html>
