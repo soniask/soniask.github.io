@@ -1,3 +1,5 @@
 # Firebase Challenge
 
-Use this directory for the [Firebase challenge](https://canvas.uw.edu/courses/1066610/assignments/3383825).
+From INFO 343: Client-Side Web Development
+
+Link: https://chatapp-cd641.firebaseapp.com/

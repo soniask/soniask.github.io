@@ -1,3 +1,5 @@
 # React Challenge
 
-Use this directory for the [React challenge](https://canvas.uw.edu/courses/1066610/assignments/3383831).
+From INFO 343: Client-Side Web Development
+
+Link: https://soniask.github.io/challenge5/
