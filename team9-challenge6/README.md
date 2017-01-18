@@ -7,6 +7,6 @@
 * Spencer Pease
 * Sean Yeager
 
+HTML, CSS, ReactJS, Responsive Design
 
-## Link to gh-pages
-https://soniask.github.io/team9-challenge6/
+Link: https://soniask.github.io/team9-challenge6/
