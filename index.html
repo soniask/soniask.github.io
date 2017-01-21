@@ -1,397 +1,109 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Sonia Skarbek Portfolio</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Sonia Skarbek</title>
 
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-  <script src="js/vendor/jquery.hashchange.min.js"></script>
-  <script src="js/vendor/jquery.easytabs.min.js"></script>
+    <!-- Font Awesome icon font -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" type="text/css" />
 
-  <script src="js/main.js"></script>
-  <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
-      <![endif]-->
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
-  <body class="bg-fixed bg-1">
-<!--[if lt IE 7]>
-    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
-   <div class="main-container">
-    <div class="main wrapper clearfix">
-      <!-- Header Start -->
-        <header id="header">
-            <div id="logo">
+<body>
+    <main>
+        <section id="about-me" class="container">
+            <div class="pull-left">
+                <img src="images/profile_photo.jpg" alt="Sonia Skarbek">
+            </div>
+            <div class="about">
                 <h2>
                     Sonia Skarbek
                 </h2>
                 <h4>
                     Aspiring Web Developer
                 </h4>
+                <p>
+                    Hi! I’m Sonia. I’m a student of Informatics at the University 
+                    of Washington who’s been taking online classes in computer 
+                    science and going to hackathons since high school. I’m looking 
+                    for an internship to help me gain exposure and experience.
+                </p>
             </div>
-        </header>
-        <!-- Header End -->
-        <!-- Main Tab Container -->
-        <div id="tab-container" class="tab-container">
-          <!-- Tab List -->
-            <ul class='etabs'>
-                <li class='tab' id="tab-about">
-                  <a href="#about"><i class="icon-user"></i><span> About Me</span></a>
-                </li>
-                <li class='tab'>
-                  <a href="#resume"><i class="icon-file-text"></i><span> Resume</span></a>
-                </li>
-                <li class='tab'>
-                  <a href="#portfolio"><i class="icon-heart"></i><span> Portfolio</span></a>
-                </li>
-                <li class='tab'>
-                  <a href="#contact"><i class="icon-envelope"></i><span> Contact</span></a>
-                </li>
-            </ul>
-          <!-- End Tab List -->
-            <div id="tab-data-wrap">
-              <!-- About Tab Data -->
-                <div id="about">
-                    <section class="clearfix">
-                        <div class="g3">
-                            <div class="photo">
-                                <img src="images/IMG_0138.jpg" alt="Sonia Skarbek">
-                            </div>
-                            <div class="info">
-                                <h2>
-                                    Sonia Skarbek
-                                </h2>
-                                <h4>
-                                    Aspiring Web Developer
-                                </h4>
-                                <p>
-                                    Hi! I’m Sonia. I’m a student of Informatics at the University 
-                                    of Washington who’s been taking online classes in computer 
-                                    science and going to hackathons since high school. I’m looking 
-                                    for an internship to help me gain exposure and experience.
-                                </p>
-                            </div>
+            <div class="clearfix"></div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <div>
+                            <h3><a href="mailto:sonia.skarbek@gmail.com">sonia.skarbek@gmail.com</a></h3>
+                            <p>Email Address</p>
                         </div>
-                        <div class="break"></div>
-                        <div class="contact-info">
-                          <div class="g1">
-                            <div class="item-box clearfix">
-                              <i class="icon-envelope"></i>
-                              <div class="item-data">
-                                <h3><a href="mailto:sonia.skarbek@gmail.com">sonia.skarbek@gmail.com</a></h3>
-                                <p>Email Address</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="g1">
-                            <div class="item-box clearfix">
-                              <i class="icon-github"></i>
-                              <div class="item-data">
-                                <h3><a href="https://github.com/soniask">soniask</a></h3>
-                                <p>GitHub Profile</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="g1">
-                            <div class="item-box clearfix">
-                              <i class="icon-linkedin"></i>
-                              <div class="item-data">
-                                <h3><a href="https://www.linkedin.com/in/sonia-skarbek-121080a6">Sonia Skarbek</a></h3>
-                                <p>LinkedIn Profile</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                    </section><!-- content -->
+                    </div>
                 </div>
-              <!-- End About Tab Data -->
-              <!-- Resume Tab Data -->
-                <div id="resume">
-                    <section class="clearfix">
-                        <div class="g2">
-                            <h3>
-                                Education
-                            </h3>
-                            <ul class="no-list work">
-                                <li>
-                                    <h5>
-                                        University of Washington, Seattle, WA
-                                    </h5><span class="label label-success">2015-Current</span>
-                                    <p>
-                                        Relevant Coursework:  Intellectual Foundations of Informatics, 
-                                        Computer Programming II,  Android App Development,Web Programming, 
-                                        Client-Side Web Development, Design Thinking, Introduction to 
-                                        Relational Database Management Systems, Information Systems Analysis
-                                        and Design, Information Architecture and User Experience, Data Structures
-                                        and Algorithms
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5>
-                                        Nikole Tesla STEM High School, Redmond, WA
-                                    </h5><span class="label label-success">2012-2015</span>
-                                    <p>
-                                        Relevant Coursework: Computer Programming, AP Computer 
-                                        Science A, Engineering
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5>
-                                        Online (Udacity, EdX, Coursera)
-                                    </h5>
-                                    <p>
-                                        Introduction to Computer Science and Programming, 
-                                        Programming Languages, Web Development, Intro to 
-                                        Computer Science, Intro to HTML and CSS
-                                    </p>
-                                </li>
-                            </ul>
-
-                            <h3>
-                                Activities
-                            </h3>
-                            <ul class="no-list work">
-                                <li>
-                                    <h5>
-                                        Volunteer Teacher - STEM Reach Program for Girls
-                                    </h5><span class="label label-info">2014</span>
-                                    <p>
-                                        I spent six weeks teaching middle school girls the basics 
-                                        of game design. By the end of the program I had helped 
-                                        each girl create a computer game.
-                                    </p>
-                                </li>
-                            </ul>
-                            <h3>
-                                Awards
-                            </h3>
-                            <ul class="no-list work">
-                                <li>
-                                    <h5>
-                                        Zero-to-Sixty Code Day Special Award
-                                    </h5><span class="label label-warning">2014</span>
-                                    <p>
-                                        
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5>
-                                        Best Mobile App award at the Seattle Hardware Hackathon
-                                    </h5><span class="label label-warning">2015</span>
-                                    <p>
-                                        
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5>
-                                        NCWIT State Runner-Up
-                                    </h5><span class="label label-warning">2014</span>
-                                    <p>
-                                        
-                                    </p>
-                                </li>
-                            </ul>
-                            <h3>
-                                Experience
-                            </h3>
-                            <ul class="no-list work">
-                                <li>
-                                    <h5>
-                                        Independent Project - dubHacks
-                                    </h5><span class="label label-info">2016</span>
-                                    <p>
-                                        My dubHacks team and I made a website that utilized different APIs to read text from a photo.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5>
-                                        Independent Project - CodeDay
-                                    </h5><span class="label label-info">2015</span>
-                                    <p>
-                                        My team and I created a social media site for public internet 
-                                        access that allows users to add, rate, and discuss the Wi-Fi 
-                                        networks available in different locations and establishments.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5>
-                                        Internship at Aerojet Rocketdyne
-                                    </h5><span class="label label-info">2015</span>
-                                    <p>
-                                        Led a team of my classmates to design and build structural 
-                                        components of a liquid-fueled rocket.
-                                    </p>
-                                </li>
-                            </ul>
+                <div class="col-sm-4">
+                    <div class="item-box clearfix">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <div>
+                            <h3><a href="https://github.com/soniask">soniask</a></h3>
+                            <p>GitHub Profile</p>
                         </div>
-                        <div class="g1">
-                            <div class="sidebar">
-                                <h3>
-                                    Skills
-                                </h3>
-                                <h5>
-                                    Programming Language
-                                </h5>
-                                <div class="meter wisteria">
-                                    <span style="width: 75%"><span>JavaScript/React.js</span></span>
-                                </div>
-                                <div class="meter emerald">
-                                    <span style="width: 65%"><span>HTML/CSS</span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 40%"><span>Python</span></span>
-                                </div>
-                                <div class="meter sunflower">
-                                    <span style="width: 75%"><span>Java</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 30%"><span>PHP</span></span>
-                                </div>
-                                <div class="meter midnight">
-                                    <span style="width: 50%"><span>SQL</span></span>
-                                </div>
-                                <h5>
-                                    Software
-                                </h5>
-                                <div class="meter emerald">
-                                    <span style="width: 80%"><span>Visual Studio Code</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 60%"><span>Android Studio</span></span>
-                                </div>
-                                <div class="meter sunflower">
-                                    <span style="width: 80%"><span>GitHub</span></span>
-                                </div>
-                                <div class="meter midnight">
-                                    <span style="width: 60%"><span>Visual Studio</span></span>
-                                </div>
-                                <div class="break"></div>
-                            </div>
-                        </div>
-                    </section>
+                    </div>
                 </div>
-              <!-- End Resume Tab Data -->
-              <!-- Portfolio Tab Data -->
-                <div id="portfolio">
-                    <section class="clearfix">
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/pencil_screenshot.jpg" alt="Pencil page preview">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://soniask.github.io/challenge2/" class="btn" target="_blank">Full View</a>
-                                        <p>HTML, CSS, Responsive Design, Screen Reader Compatibility</p>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-sm-4">
+                    <div>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <div>
+                            <h3><a href="https://www.linkedin.com/in/sonia-skarbek-121080a6">Sonia Skarbek</a></h3>
+                            <p>LinkedIn Profile</p>
                         </div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/movie_stats.png" alt="Movie stats page preview">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://soniask.github.io/challenge3/" class="btn" target="_blank">Full View</a>
-                                        <p>HTML, CSS, JavaScript, Responsive Design</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/chat_app.png" alt="Chat app preview">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://chatapp-cd641.firebaseapp.com/" class="btn" target="_blank">Full View</a>
-                                        <p>HTML, CSS, JavaScript, Firebase, Responsive Design</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="break"></div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/weather_app.png" alt="Weather app preview">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://soniask.github.io/challenge5/" class="btn" target="_blank">Full View</a>
-                                        <p>HTML, CSS, ReactJS, Responsive Design, OpenWeatherMap API</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/moviestore.png" alt="Movie store preview">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://soniask.github.io/team9-challenge6/" class="btn" target="_blank">Full View</a>
-                                        <p>HTML, CSS, ReactJS, Responsive Design</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/lyric_app.png" alt="Lyric app preview">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://info343-final-4ac83.firebaseapp.com/" class="btn" target="_blank">Full View</a>
-                                        <p>HTML, CSS, ReactJS, Firebase, Responsive Design</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                    </div>
                 </div>
-              <!-- End Portfolio Data -->
-              <!-- Contact Tab Data -->
-                <div id="contact">
-                    <section class="clearfix">
-                       <div class="g3">
-                         <div class="sny-icon-box">
-                           <div class="sny-icon">
-                              <i class="icon-envelope"></i>
-                            </div>
-                            <div class="sny-icon-content">
-                              <h4>Email</h4>
-                              <p><a href="mailto:sonia.skarbek@gmail.com">sonia.skarbek@gmail.com</a></p>
-                            </div>
-                         </div>
-                       </div>
-                       <div class="break"></div>
-                       
-                    </section>
-                </div>
-              <!-- End Contact Data -->
             </div>
-        </div>
-        <!-- End Tab Container -->
-        <footer>
-            <p>
-                Template by <a href="http://www.mrova.com" title="Pune web designing company">mRova</a>.
-            </p>
-        </footer>
-    </div><!-- #main -->
-</div><!-- #main-container -->
+        </section>
+        <section id="portfolio" class="container">
+            <h3>Portfolio</h3>
+            <div class="row">
+                <div class="col-sm-4">
 
+                </div>
+                <div class="col-sm-8">
+                    <p>
 
+                    </p>
+                    <div>
+                        <div>
+                            <a href=""></a>
+                        </div>
+                        <div>
+                            <a href=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                
+            </div>
+            <div class="row">
+                
+            </div>
+            <div class="row">
+                
+            </div>
+            <div class="row">
+                
+            </div>
+            <div class="row">
+                
+            </div>
+        </section>
+        <section id="contact-me">
 
+        </section>
+    </main>
 </body>
 </html>
