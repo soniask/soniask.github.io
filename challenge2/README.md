@@ -1,6 +1,7 @@
 # Responsive Design Challenge
 
 From INFO 343: Client-Side Web Development
+Title: The Pencil
 
 HTML, CSS, Responsive Design
 

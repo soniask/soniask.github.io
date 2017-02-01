@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+    #about-me {
+        text-align: left;
+    }
+
+    #about-me img {
+        float: left;
+    }
+    
+    .about {
+        padding-left: 280px;
+    }
+}

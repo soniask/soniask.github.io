@@ -1,6 +1,7 @@
 # Firebase Challenge
 
 From INFO 343: Client-Side Web Development
+Title: ChatApp
 
 HTML, CSS, JavaScript, Firebase, Responsive Design
 

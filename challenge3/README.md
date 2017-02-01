@@ -1,6 +1,7 @@
 # Working with Data Challenge
 
 From INFO 343: Client-Side Web Development
+Title: Movie Stats
 
 HTML, CSS, JavaScript, Responsive Design
 
