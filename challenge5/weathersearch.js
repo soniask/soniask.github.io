@@ -3,7 +3,7 @@ class WeatherSearch extends React.Component {
         return (
             <form onSubmit={(e) => this.onSearch(e)}>
                 <div className="input-group">
-                    <input className="form-control" type="text" ref="query" />
+                    <input className="form-control" type="text" ref="query" placeholder="Search city or zip"/>
                     <span className="input-group-btn">
                         <button type="submit" className="btn btn-primary pull-right">Search</button>
                     </span>
